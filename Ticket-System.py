@@ -69,4 +69,4 @@ async def close(ctx):
         await asyncio.sleep(5)
         await ctx.channel.delete()
 
-bot.run("MTAzMzQxNzk0NTA1OTE2ODI3Ng.GShLG5.EVybXkR8-G_xFwnq2yh5w6FOuTxTCJIYDSHEbo") # Set the Bot token here
+bot.run("MTAzMzQxNzk0NTA1OTE2ODI3Ng.Gm0ZZ_.C9Qc2J0qecfWplSDd4YpX6SPGpzSYGz1JTQ9q8") # Set the Bot token here
