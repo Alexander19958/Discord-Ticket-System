@@ -3,12 +3,12 @@ from discord.ui import Button, View
 from discord.ext import commands
 import asyncio
 
-bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
+bot = commands.Bot(command_prefix="I", intents=discord.Intents.all())
 
-GUILD_ID = 0 # Server ID eintragen! 
-TEAM_ROLE = 0 # Die Rolle, welches die Tickets sehen soll! 
-TICKET_CHANNEL = 0 # Der Channel, wo Tickets geöffnet werden sollen! 
-CATEGORY_ID = 0 # Die Kategorie, wo die Tickets erstellt werden sollen! 
+GUILD_ID = 678699911738294283 # Server ID eintragen! 
+TEAM_ROLE = 981889158635208754 # Die Rolle, welches die Tickets sehen soll! 
+TICKET_CHANNEL = 981916117859725382 # Der Channel, wo Tickets geöffnet werden sollen! 
+CATEGORY_ID = 981889475900743721 # Die Kategorie, wo die Tickets erstellt werden sollen! 
 
 @bot.event
 async def on_ready():
@@ -69,4 +69,4 @@ async def close(ctx):
         await asyncio.sleep(5)
         await ctx.channel.delete()
 
-bot.run("") # Set the Bot token here
+bot.run("MTAzMzQxNzk0NTA1OTE2ODI3Ng.GShLG5.EVybXkR8-G_xFwnq2yh5w6FOuTxTCJIYDSHEbo") # Set the Bot token here
